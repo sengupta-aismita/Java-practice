@@ -23,5 +23,6 @@ public class rev {
             arr[i] = sc.nextInt();
         }
         Reverse(arr);
+        sc.close();
     }
 }

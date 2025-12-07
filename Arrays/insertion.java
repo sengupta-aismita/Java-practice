@@ -1,5 +1,5 @@
 //insertion in a sorted array
-
+package Arrays;
 public class insertion {
 
     static int[] sorted_array(int arr[], int elem){

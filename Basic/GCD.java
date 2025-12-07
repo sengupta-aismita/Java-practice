@@ -17,5 +17,6 @@ public class GCD {
           int b = sc.nextInt();
           System.out.println("GCD IS : "+ greatest(a,b));
           System.out.println("LCM IS: " + (a * b)/greatest(a,b));
+          sc.close();
      }
 }

@@ -1,5 +1,5 @@
 //Majority element 2...greater than n/3
-
+import java.util.*;
 public class Majority {
     public static void main(String[] args) {
         // code here

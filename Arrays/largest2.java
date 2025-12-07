@@ -18,5 +18,7 @@ public class largest2 {
             }
         }
         System.out.println("The largest element in the array is : "+ max);
+         sc.close();
      }
+    
 }
