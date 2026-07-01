@@ -1,4 +1,7 @@
+package Basic;
+
 import java.util.*;
+import static java.lang.System.*;
 
 public class Average{
 
@@ -9,13 +12,12 @@ public class Average{
     }
     public static void main(String args[])
     {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter 3 numbers :");
+        Scanner sc = new Scanner(in);
+        out.println("Enter 3 numbers :");
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        System.out.print("Average is:" + Avg(a,b,c));
+        out.print("Average is:" + Avg(a,b,c));
         
-        sc.close();
     }
 }
